@@ -1,0 +1,610 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hubot Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.contain {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.head {
+  width: 100%;
+}
+.head .contain .f1 img {
+  border-radius: 99px;
+}
+.head .contain .f1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 500px;
+}
+.head .contain .f1 .nose {
+  font-size: 30px;
+  font-weight: 550;
+}
+.head .contain {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+.head .contain .f2 {
+  padding: 20px;
+}
+.head .contain .f3 {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 45px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.head .contain .f3 .bad {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+.head .contain .f3 .bad :hover {
+  background-color: aliceblue;
+}
+.greens {
+  background-image: url(https://img.freepik.com/premium-photo/american-football-players-line-up-field-ready-play_1282444-179596.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.greens .contain .hid .line {
+  background-color: orange;
+  border-radius: 99px;
+  width: fit-content;
+  padding: 7px;
+  color: aliceblue;
+}
+.greens .contain .hid .brons {
+  color: white;
+  font-weight: 800;
+  font-size: 28px;
+}
+.greens .contain .hid .LL {
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.greens .contain {
+  padding: 15px;
+  gap: 15px;
+}
+.greens .contain .hid .btn22 {
+  background-color: red;
+  padding: 15px;
+  width: 18%;
+  color: aliceblue;
+  border: none;
+}
+.greens .contain .hid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  gap: 22px;
+}
+
+.contain .grido {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+}
+.contain .grido .wando .rightside .r1 {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 99px;
+}
+.contain .grido .wando {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: grey;
+  padding: 20px;
+  width: 100%;
+  grid-column: 1 / span 2;
+}
+.contain .grido .wando .rightside {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+}
+.contain .grido .wando .rightside .r2 {
+  color: black;
+  font-weight: 900px;
+}
+.contain .grido .wando .rightside .r3 {
+  width: 60%;
+}
+.contain .grido .mando {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  grid-column: 3 / span 1;
+}
+.contain .grido .mando .line {
+  background-color: red;
+  border-radius: 99px;
+  padding: 15px;
+  width: fit-content;
+}
+.contain .grido .mando .r3 {
+  width: 45%;
+}
+.contain .grido .lando {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  gap: 15px;
+}
+.contain .grido .lando .l1 {
+  background-color: blue;
+  color: white;
+  border-radius: 99px;
+  width: fit-content;
+  padding: 10px;
+}
+.contain .grido .rando {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  gap: 15px;
+}
+.contain .grido .rando .l2 {
+  background-color: orange;
+  color: white;
+  border-radius: 99px;
+  width: 65px;
+  padding: 10px;
+}
+.contain .grido .sando .lines {
+  background-color: orange;
+  border-radius: 99px;
+  padding: 15px;
+  width: 70px;
+}
+.contain .grido .sando {
+  background-color: red;
+  padding: 20px;
+  gap: 15px;
+  color: aliceblue;
+  height: 280px;
+  grid-column: 1 / span 1;
+}
+.contain .grido .sando .r3 {
+  padding: 8px;
+}
+.contain .grido .sando .r2 {
+  padding: 8px;
+}
+
+.contain .grido .zando {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: grey;
+  padding: 20px;
+  width: 100%;
+  grid-column: 2 / span 2;
+}
+.contain .grido .zando .rightside {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+}
+.contain .grido .zando .rightside .r2 {
+  color: black;
+  font-weight: 900px;
+}
+.contain .grido .zando .rightside .r3 {
+  width: 60%;
+}
+.contain .grido .zando .rightside .r1 {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 99px;
+}
+.wrap .contain .foot {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  background-color: black;
+  justify-content: center;
+  width: 100%;
+}
+.wrap .contain .foot .a1 {
+  flex-direction: column;
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+  width: 20%;
+  grid-template-columns: 1 / span 1;
+  color: aliceblue;
+}
+.wrap .contain .foot .a1 .drew {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.wrap .contain .foot .a1 .drew .lil {
+  font-size: 25px;
+  font-weight: 500;
+}
+.wrap .contain .foot .r8 {
+  font-size: 15px;
+}
+.contain .foot .b2 .try {
+  padding-bottom: 36px;
+  font-size: 19px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.wrap .contain .foot .b2 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+  grid-template-columns: 2 / span 1;
+  width: 20%;
+}
+.wrap .contain .foot .b2 .r8 {
+  color: aliceblue;
+}
+.wrap .contain .foot .b2 .fair {
+  background-color: red;
+  padding: 10px;
+  width: 100px;
+}
+.wrap .contain .foot .c3 {
+  width: 22%;
+  color: aliceblue;
+}
+.wrap .contain .foot .c3 {
+  padding: 15px;
+  gap: 15px;
+}
+.wrap .contain .foot .c3 .d {
+  padding: 10px;
+  border-bottom: blue;
+}
+.wrap .contain .foot .c3 .e {
+  padding: 10px;
+}
+.wrap .contain .foot .c3 .f {
+  padding: 10px;
+}
+
+.wrap .contain .foot .c3 .g {
+  padding: 10px;
+}
+.wrap .contain .foot .c3 .zel {
+  padding-bottom: 38px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.wrap .contain .foot .d4 {
+  width: 22%;
+  color: aliceblue;
+  padding: 15px;
+  gap: 15px;
+}
+.wrap .contain .foot .d4 .earth {
+  padding-bottom: 35px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.wrap .contain .foot .d4 .r8 {
+  padding: 10px;
+}
+
+.wrap .contain .foot .d4 .ques {
+  background-color: orange;
+  padding: 10px;
+  width: 100px;
+}
+.wrap .contain .foot .lousy {
+  background-color: black;
+  width: 100%;
+}
+.wrap {
+  background-color: black;
+}
+.wrap .contain .foot .c3 .l {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
+  border-bottom: gray 1px dashed;
+}
+.kfoot {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.kfoot .contain .truce .beath {
+  background-color: grey;
+
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width: 430px) {
+  .head .contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .head .contain .f2 {
+    display: none;
+    overflow: hidden;
+  }
+  head .contain .f3 {
+    padding: 10px;
+    width: 20px;
+  }
+  .head .contain .f1 {
+    padding-bottom: 4px;
+    padding-right: 0px;
+  }
+  .head .contain .f1 img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .greens {
+    background-image: url(https://img.freepik.com/premium-photo/american-football-players-line-up-field-ready-play_1282444-179596.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .greens .contain .hid .LL {
+    width: 225px;
+    color: black;
+    font-size: 16px;
+  }
+  .greens .contain .hid .line {
+    width: 50%;
+    padding: 10px;
+  }
+  .greens .contain .hid .btn22 {
+    width: 100px;
+  }
+  .greens .contain .hid .brons {
+    font-size: 24px;
+    font-weight: 600;
+    width: 280px;
+  }
+  .head .contain .f3 {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .contain .grido {
+    display: flex;
+    flex-direction: column;
+  }
+  .contain .grido .wando {
+    grid-column: 1 / span 1;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .contain .grido .wando img {
+    width: 250px;
+  }
+  .contain .grido .mando {
+    width: 100%;
+    height: 300px;
+  }
+
+  .contain .grido .mando .r2 {
+    text-align: center;
+  }
+  .contain .grido .mando .r3 {
+    width: 200px;
+    text-align: center;
+  }
+  .contain .grido .lando {
+    width: 100%;
+    height: 450px;
+  }
+  .contain .grido .lando img {
+    width: 250px;
+    overflow: hidden;
+  }
+  .contain .grido .rando {
+    width: 100%;
+  }
+  .contain .grido .rando img {
+    width: 250px;
+  }
+
+  .contain .grido .sando {
+    width: 100%;
+  }
+  .contain .grido .zando {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contain .grido .zando .r3 {
+    width: 200px;
+  }
+  .contain .grido .zando img {
+    width: 250px;
+  }
+  .wrap .contain .foot {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .wrap .contain .foot .drew {
+    width: 40%;
+  }
+  .wrap .contain .foot .r8 {
+    width: 300px;
+  }
+  .wrap .contain .foot .b2 {
+    width: 260px;
+  }
+  .wrap .contain .foot .b2 .fair {
+    width: 325px;
+  }
+  .wrap .contain .foot .b2 input {
+    width: 325px;
+    height: 30px;
+  }
+
+  .wrap .contain .foot .c3 {
+    width: 340px;
+  }
+  .wrap .contain .foot .d4 {
+    width: 219px;
+    gap: 20px;
+  }
+  .kfoot .contain .truce .beath {
+    margin-bottom: 15px;
+  }
+}
+
+.bigb .contain .laze .dom {
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+  gap: 15px;
+  background-color: grey;
+  color: aliceblue;
+  width: 80%;
+  margin-bottom: 15px;
+}
+.bigb .contain .laze .far {
+  font-size: 35px;
+  font-weight: 700;
+  background-color: gray;
+  width: 80%;
+}
+
+.bigb .contain .job {
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  gap: 15px;
+  flex-direction: column;
+  width: 200vw;
+  height: 30vh;
+}
+.bigb .contain {
+  display: flex;
+  flex-direction: row;
+}
+.bigb .contain .job .yes {
+  background-color: black;
+  padding: 8px;
+}
+
+.world .contain .jale {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  margin: 10px;
+  background-color: grey;
+  color: black;
+}
+.world .contain .jale .week {
+  font-size: 30px;
+  font-weight: 700;
+}
+.world .contain .jale input {
+  width: 87%;
+
+  margin: 10px;
+}
+.world .contain .jale .open input {
+  height: 40vh;
+}
+.btn.current {
+  background-color: red;
+}
+.btn {
+  padding: 11px;
+  height: fit-content;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+.btn.current a {
+  color: white;
+}
+@media screen and (max-width: 430px) {
+  .bigb .contain .laze .dom {
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    gap: 15px;
+    background-color: grey;
+    color: aliceblue;
+
+    height: fit-content;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .bigb .contain .laze .far {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: gray;
+    width: 100%;
+    padding: 10px;
+  }
+  .bigb .contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .bigb .contain .job {
+    width: 100%;
+    margin-bottom: 10px;
+    height: fit-content;
+  }
+  .world .contain .jale .open input {
+    height: 20vh;
+  }
+}
